@@ -1,0 +1,27 @@
+{
+  "users": {
+    "jessepinkman": {
+      "firstname": "jesse",
+      "lastname": "pinkman",
+      "age": 28
+    },
+    "janemargolis": {
+      "firstname": "jane",
+      "lastname": "margolis"
+    }
+  },
+  "products": {
+    "1": {
+      "title": "MacBook Air",
+      "price": 70000
+    },
+    "2": {
+      "title": "Samsung S25",
+      "price": 90000
+    },
+    "3": {
+      "title": "Samsung S26",
+      "price": 100000
+    }
+  }
+}
