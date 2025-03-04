@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "title": "MacBook Pro",
+    "price": 90000,
+    "rating": "4.5",
+    "category": "Computer",
+    "colors": ["Red", "Blue"]
+}

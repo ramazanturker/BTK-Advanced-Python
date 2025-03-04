@@ -1,24 +1,24 @@
 import csv
 
-# with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/cars.csv", "w", newline='') as file:
+# with open("05_csv_files/cars.csv", "w", newline='') as file:
 #     csv_writer = csv.writer(file)
 #     # csv_writer.writerow(["Brand","Modal"])
 #     # csv_writer.writerow(["Toyota","Corolla"])
 #     # csv_writer.writerow(["Mazda","CX-5"])
 #     csv_writer.writerows([["Brand","Modal"],["Toyota","Corolla"],["Toyota","Chr"]])
 
-# with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/cars.csv", "a") as file:
+# with open("05_csv_files/cars.csv", "a") as file:
 #     csv_writer = csv.writer(file)
 #     csv_writer.writerow(["Mazda","CX-5"])
 
-# with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products.csv") as file:
+# with open("05_csv_files/products.csv") as file:
 #     csv_reader = csv.reader(file)
-#     with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/new_products.csv", "w", newline='') as f:
+#     with open("05_csv_files/new_products.csv", "w", newline='') as f:
 #         csv_writer = csv.writer(f)
 #         for product in csv_reader:
 #             csv_writer.writerow([p.upper() for p in product])
 
-with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products.csv","r+",newline='') as file:
+with open("05_csv_files/products.csv", "r+", newline='') as file:
     csv_reader = csv.reader(file)
     csv_writer = csv.writer(file)
 

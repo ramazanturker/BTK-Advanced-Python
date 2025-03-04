@@ -1,9 +1,9 @@
-# with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products.csv") as file:
+# with open("05_csv_files/products.csv") as file:
 #    print(file.read())
 
 import csv
 
-with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products.csv") as file:
+with open("05_csv_files/products.csv") as file:
     csv_reader = csv.reader(file)
     print(csv_reader)
     # listing = list(csv_reader)

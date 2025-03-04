@@ -1,6 +1,6 @@
 import csv
 
-""" with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products2.csv", "w") as file:
+""" with open("05_csv_files/products2.csv", "w") as file:
     headers = ["Id","ProductName","Price","IsActive","Category","Rating"]
     csv_writer = csv.DictWriter(file, headers)
     csv_writer.writeheader()
@@ -50,7 +50,7 @@ import csv
         }
     ]) """
 
-""" with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products2.csv", "a") as file:
+""" with open("05_csv_files/products2.csv", "a") as file:
     headers = ["Id","ProductName","Price","IsActive","Category","Rating"]
     csv_writer = csv.DictWriter(file, headers)
     
@@ -66,11 +66,11 @@ import csv
 def price_tax(price):
     return float(price) * 1.20
 
-with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products.csv") as file:
+with open("05_csv_files/products.csv") as file:
     csv_reader = csv.DictReader(file)
     products = list(csv_reader)
 
-    with open("/Users/turker/Desktop/BTK-Advanced-Python/05_csv_files/products3.csv", "w") as file:
+    with open("05_csv_files/products3.csv", "w") as file:
         headers = ["Id","ProductName","Price","IsActive","Category","Rating"]
         csv_writer = csv.DictWriter(file, headers)
         csv_writer.writeheader()
