@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 port = 587
 smtp_server = "smtp-relay.brevo.com"
 login = "64f34f001@smtp-brevo.com"
-password = "5Pbnhz1YNG8wODfX"
+password = ""
 
-sender_email = "info@samantha.com"
+sender_email = "info@alex.mark.edward.com"
 receiver_email = "roxivi6016@calmpros.com"
 
 email_list = ["abc@gmail.com, xyz@gmail.com"]
